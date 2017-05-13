@@ -1,11 +1,11 @@
 import SwiftyBeaver
 import LoggerAPI
 
-class SwiftyBeaverKitura: Logger {
+public final class SwiftyBeaverKitura: Logger {
 
     private let sb = SwiftyBeaver.self
 
-    init(destinations:[BaseDestination]) {
+    public init(destinations:[BaseDestination]) {
         destinations.forEach { destination in
             sb.addDestination(destination)
         }
