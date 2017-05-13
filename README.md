@@ -1,5 +1,6 @@
 # SwiftyBeaver Logging Provider for Vapor
-[![Language Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://swift.org) [![Kitura 1.7.x](https://img.shields.io/badge/Kitura-1.7.x-blue.svg)](http://www.kitura.io/) [![SwiftyBeaver 1.x](https://img.shields.io/badge/SwiftyBeaver-1.x-blue.svg)]
+[![Language Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://swift.org) [![Kitura 1.7.x](https://img.shields.io/badge/Kitura-1.7.x-blue.svg)](http://www.kitura.io/) 
+[![SwiftyBeaver 1.x](https://img.shields.io/badge/SwiftyBeaver-1.x-blue.svg)](https://github.com/SwiftyBeaver/SwiftyBeaver) 
 
 Adds the powerful logging of [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver) to [Kitura](https://github.com/IBM-Swift/Kitura) for server-side Swift 3 on Linux and Mac.
 
