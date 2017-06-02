@@ -5,7 +5,7 @@ public final class SwiftyBeaverKitura: Logger {
 
     private let sb = SwiftyBeaver.self
 
-    public init(destinations:[BaseDestination]) {
+    public init(destinations: [BaseDestination]) {
         destinations.forEach { destination in
             sb.addDestination(destination)
         }
@@ -33,9 +33,8 @@ public final class SwiftyBeaverKitura: Logger {
         }
 
         sb.custom(level: sbLevel, message: msg,
-                  file: fileName, function: functionName,line: lineNum)
+                  file: fileName, function: functionName, line: lineNum)
     }
-
 
     public func isLogging(_ level: LoggerMessageType) -> Bool {
         return true
