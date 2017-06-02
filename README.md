@@ -1,17 +1,16 @@
-# SwiftyBeaver Logging Provider for Vapor
-[![Language Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://swift.org) [![Kitura 1.7.x](https://img.shields.io/badge/Kitura-1.7.x-blue.svg)](http://www.kitura.io/) 
-[![SwiftyBeaver 1.x](https://img.shields.io/badge/SwiftyBeaver-1.x-blue.svg)](https://github.com/SwiftyBeaver/SwiftyBeaver) 
+# SwiftyBeaver Logging Provider for IBM Kitura
+[![Language Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://swift.org) [![Kitura 1.7.x](https://img.shields.io/badge/Kitura-1.7.x-blue.svg)](http://www.kitura.io/)  <a href="https://slack.swiftybeaver.com" target="_blank"> <img src="https://img.shields.io/badge/Join-Our%20Slack%20Chat-blue.svg" alt="Slack Status"/></a>
 
 Adds the powerful logging of [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver) to [Kitura](https://github.com/IBM-Swift/Kitura) for server-side Swift 3 on Linux and Mac.
 
 ## Installation
 
-Add this to the `Package.swift` of your Vapor project:
+Add this to the `Package.swift` of your Kitura project:
 
 ```swift
 dependencies: [
-	.Package(url: "https://github.com/lgaches/SwiftyBeaver-Kitura.git", majorVersion: 0),
-	//...other packages here
+    .Package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver-Kitura.git", majorVersion: 1),
+    //...other packages here
 ],
 ```
 <br/>
